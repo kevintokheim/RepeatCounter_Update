@@ -1,0 +1,29 @@
+
+Behavior                        Input word      Input string     Output word   Output repeats
+
+User searches for the word
+“a” in the string “a” and           a               a                  a                1
+the computer outputs the
+word “a” with 1 repeat
+
+
+
+User searches for the word
+“a” in the string “a b” and         a               a b                 a               1
+the computer outputs the
+word “a”  and 1 repeat
+
+
+User searches for the word
+“a” in the string
+“a b a c and ad” and the            a         a b a c and ad            a               2
+computer outputs word “a”
+with a frequency of 2
+
+
+
+User searches for the word
+“the” in the string “the
+theater is for the thespians”       the      the theater is
+and the computer outputs the                 for the thespians         the              2
+word “the” with a frequency of 2
